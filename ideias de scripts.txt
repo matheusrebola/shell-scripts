@@ -1,0 +1,80 @@
+1 - Script de Backup Automatizado
+
+    Objetivo: Criar um script que faça backup de arquivos ou bancos de dados periodicamente.
+    Aprendizado: Manipulação de arquivos, comandos como tar, rsync, ou scp para backups remotos.
+    Demonstrar: Gestão de dados e automação de backup.
+    Descrição: Script que faz backup automático de diretórios importantes para um servidor de backup remoto usando rsync ou scp.
+    Comandos-chave: rsync, scp, cron, tar
+    Aprendizado: Gerenciamento de backups e automação com cron jobs.
+
+2 - Monitoramento de Uso de CPU e Memória
+
+    Objetivo: Desenvolver um script que monitore o uso de CPU, memória e disco, e envie um alerta se algum valor passar de um certo limite.
+    Aprendizado: Comandos como top, htop, vmstat, free, e monitoramento.
+    Demonstrar: Habilidades em monitoramento e manutenção de servidores.
+    
+3 - Firewall (iptables) e Regras de Segurança
+
+    Objetivo: Criar um script que configure regras de firewall usando iptables ou ufw.
+    Aprendizado: Manipulação de regras de firewall, configuração de portas e restrição de acesso.
+    Demonstrar: Conhecimentos em segurança de redes.
+    Descrição: Um script para configurar regras básicas de firewall utilizando iptables, incluindo bloqueio de portas específicas e whitelist de IPs.
+    Comandos-chave: iptables, ufw, firewalld
+    Aprendizado: Segurança de rede, configuração de firewall.
+    
+4 - Script de Configuração de Rede (IP, Gateway, DNS)
+
+    Objetivo: Automatizar a configuração de endereços IP, gateway, DNS e outras configurações de rede em uma máquina Linux.
+    Aprendizado: Comandos como ifconfig, ip, nmcli, systemctl.
+    Demonstrar: Controle sobre configuração de redes e diagnóstico.
+    
+5 - Monitoramento de Serviços em Execução (Web Server, Banco de Dados, etc.)
+
+    Objetivo: Script para monitorar a saúde de serviços como Apache, NGINX, PostgreSQL ou MySQL.
+    Aprendizado: Verificação de status de serviços usando systemctl, service ou ps aux.
+    Demonstrar: Manutenção de infraestrutura e resolução de problemas.
+    Descrição: Um script que verifica o status de serviços importantes (como Apache, Nginx, MySQL) e reinicia se estiverem parados.
+    Comandos-chave: systemctl, service, netstat, ps aux
+    Aprendizado: Gerenciamento de serviços e processos, automação de recuperação de falhas.
+
+Automatização de Deploy com Git
+
+    Objetivo: Um script que faz pull de um repositório Git, builda a aplicação e reinicia o serviço.
+    Aprendizado: Integração de Git com o servidor, automação de processos de build e deploy.
+    Demonstrar: Fluxos de CI/CD.
+    Descrição: Script para fazer deploy de uma aplicação web, clonando o repositório do Git, configurando o ambiente (como Nginx e firewall), e reiniciando serviços.
+    Comandos-chave: git, nginx, ufw, systemctl
+    Aprendizado: Automação de deploy, configuração de servidores web e firewalls.
+    
+Script de Limpeza de Logs ou Arquivos Temporários
+
+    Objetivo: Automatizar a limpeza de logs antigos ou arquivos temporários para liberar espaço em disco.
+    Aprendizado: Manipulação de arquivos, find, rm, logrotate.
+    Demonstrar: Manutenção de sistema.
+    Descrição: Um script que coleta informações de diagnóstico de rede, incluindo ping para hosts, traceroute, resolução DNS, e verifica portas abertas.
+    Comandos-chave: ping, traceroute, nslookup, nmap
+    Aprendizado: Diagnóstico e solução de problemas de rede.
+    
+Configuração de Servidor SSH com Autenticação por Chave
+
+    Objetivo: Automatizar a configuração do servidor SSH, desativar login por senha e ativar login por chave pública.
+    Aprendizado: Configuração de SSH (/etc/ssh/sshd_config), permissões de arquivo.
+    Demonstrar: Segurança de servidores remotos.
+    Descrição: Script para configurar um servidor SSH com chaves públicas, desativando autenticação por senha e alterando a porta padrão.
+    Comandos-chave: sshd_config, ufw, ssh-keygen, scp
+    Aprendizado: Segurança de acesso remoto via SSH.
+    
+Monitoramento de Conectividade de Rede (ping, traceroute)
+
+    Objetivo: Criar um script que monitore a conectividade de rede com servidores externos, usando ping, traceroute ou mtr.
+    Aprendizado: Comandos básicos de rede, detecção de falhas de conectividade.
+    Demonstrar: Diagnóstico de redes e solução de problemas.
+    Descrição: Script que monitora o uso da rede em tempo real, salvando logs de tráfego de entrada e saída por interface de rede.
+    Comandos-chave: ifconfig, netstat, nload, vnstat
+    Aprendizado: Monitoramento de interfaces de rede, análise de logs.
+    
+Instalação de Certificados SSL com Let's Encrypt
+
+    Descrição: Script para instalar certificados SSL em um servidor Nginx ou Apache utilizando o Certbot, e configurando a renovação automática.
+    Comandos-chave: certbot, nginx, apache, cron
+    Aprendizado: Segurança com SSL, gerenciamento de certificados.
